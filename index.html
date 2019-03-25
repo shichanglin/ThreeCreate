@@ -12,60 +12,285 @@
 </head>
 
 <body>
-    <div>
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#example-navbar-collapse">
-                        <span class="sr-only">切换导航</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">TAG</a>
-                </div>
-                <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="#">城市定位 <b class="caret"></b></a>
-                            
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                登陆
-                            </a>
-                            <ul class="dropdown-menu">
-                                    <li>用户名:<input type="text" placeholder="请输入用户名"></li>
-                                    <li>密码：<input type="text" placeholder="请输入密码"></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                注册
-                            </a>
-                            <ul class="dropdown-menu">
-                                    <li><a href="#"><img src="" alt=""></a></li>
+        <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12 column">
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                 <a href="#">城市定位</a>
+                            </li>
+                            <li>
+                                 <a href="#">登陆</a>
+                            </li>
+                            <li class="disabled">
+                                 <a href="#">注册</a>
+                            </li>
+                            <li class="disabled">
+                                 <a href="#">我的TAG</a>
+                            </li>
+                            <li class="disabled">
+                                 <a href="#">手机APP</a>
+                            </li>
+                            <li class="disabled">
+                                 <a href="#">商家中心</a>
+                            </li>
+                            <li class="dropdown pull-right">
+                                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">网站导航<strong class="caret"></strong></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                         <a href="#">百度</a>
+                                    </li>
+                                    <li>
+                                         <a href="#">教务处</a>
+                                    </li>
+                                    <li>
+                                         <a href="#">淘宝</a>
+                                    </li>
+                                    <li class="divider">
+                                    </li>
+                                    
                                 </ul>
-                        </li>
-
-                        <li><a href="#">我的TAG</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                手机APP <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#"><img src="" alt=""></a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">商家中心</a></li>
-                        <li><a href="#">网站导航</a></li>
-                    </ul>
+                            </li>
+                        </ul>
+                        <div class="row clearfix" style="padding:10px 5px;border:1px solid red;">
+                            <div class="col-md-2 column">
+                                <img alt="140x140" src="default3.jpg" />
+                            </div>
+                            <div class="col-md-6 column">
+                                <nav class="navbar navbar-default" role="navigation">
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="position: relative;left: 50px;">
+                                        <form class="navbar-form navbar-left" role="search">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" />
+                                            </div> <button type="submit" class="btn btn-default">Submit</button>
+                                        </form>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="col-md-4 column">
+                                <h1>天气</h1>
+                            </div>
+                        </div>
+                        <div class="row clearfix " style="padding:10px 5px;border:1px solid red;">
+                            <div class="col-md-2 column"  style="border:1px solid red">
+                                <h3 class="text-center" >
+                                    校园小贴士
+                                </h3>
+                                <!-- 校园小贴士 -->
+                                <ol class="list-inline" style="text-align:center">
+                                    <li>
+                                       <h4> 校内动态 ></h4>
+                                    </li>
+                                    <li>
+                                        <h4> 校内动态 ></h4>
+                                    </li>
+                                    <li>
+                                        <h4> 校内动态 ></h4>
+                                    </li>
+                                    <li>
+                                        <h4> 校内动态 ></h4>
+                                    </li>
+                                    <li>
+                                        <h4> 校内动态 ></h4>
+                                    </li>
+                                    <li>
+                                        <h4> 校内动态 ></h4>
+                                    </li>
+                                    <li>
+                                        <h4> 校内动态 ></h4>
+                                    </li>
+                                    <li>
+                                        <h4> 校内动态 ></h4>
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="col-md-6 column" style="border:1px solid red">
+                                <div class="carousel slide" id="carousel-753806">
+                                    <ol class="carousel-indicators">
+                                        <li class="active" data-slide-to="0" data-target="#carousel-753806">
+                                        </li>
+                                        <li data-slide-to="1" data-target="#carousel-753806">
+                                        </li>
+                                        <li data-slide-to="2" data-target="#carousel-753806">
+                                        </li>
+                                    </ol>
+                                    <div class="carousel-inner" >
+                                        <div class="item active">
+                                            <img alt="" src="default1.jpg"style="display:inline-block;height:300;width:500px" />
+                                            <div class="carousel-caption">
+                                                <h4>
+                                                    热销
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img alt="" src="default1.jpg" style="display:inline-block;height:300;width:500px" />
+                                            <div class="carousel-caption">
+                                                <h4>
+                                                    热销
+                                                </h4>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img alt="" src="default1.jpg" style="display:inline-block;height:300;width:500px" />
+                                            <div class="carousel-caption">
+                                                <h4>
+                                                 热销
+                                                </h4>
+                                              
+                                            </div>
+                                        </div>
+                                    </div> <a class="left carousel-control" href="#carousel-753806" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-753806" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                                </div>
+                                <h3 class="text-center">
+                                   TAG论坛
+                                </h3>
+                                <dl >
+                                    <dt>
+                                      标题
+                                    </dt>
+                                    <dd>
+                                        A description list is perfect for defining terms.
+                                    </dd>
+                                    <dt>
+                                        Euismod
+                                    </dt>
+                                    <dd>
+                                        Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                                    </dd>
+                                    <dd>
+                                        Donec id elit non mi porta gravida at eget metus.
+                                    </dd>
+                                    <dt>
+                                        Malesuada porta
+                                    </dt>
+                                    <dd>
+                                        Etiam porta sem malesuada magna mollis euismod.
+                                    </dd>
+                                    <dt>
+                                        Felis euismod semper eget lacinia
+                                    </dt>
+                                    <dd>
+                                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                                    </dd>
+                                </dl> <button type="button" class="btn btn-default btn-block">按钮</button> <button type="button" class="btn btn-block btn-default">按钮</button>
+                            </div>
+                            <div class="col-md-4 column">
+                                <form class="form-horizontal" style="border:1px solid red" role="form">
+                                    <div class="input-group" style="padding-top:20px ;padding-right:10px;padding-left:10px;">
+                                        <span class="input-group-addon">用户名</span>
+                                        <input type="text" class="form-control" placeholder="Twitterhandle">
+                                    </div>
+                                    <div class="input-group" style="padding-top:20px; padding-left:10px;padding-right:10px;"> 
+                                        <span class="input-group-addon">密码&nbsp;&nbsp;&nbsp;</span>
+                                        <input type="text" class="form-control" placeholder="Twitterhandle">
+                                    </div>
+                                   
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10" style="padding-top:20px; ">
+                                             <button type="submit" class="btn btn-default">Sign in</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div >
+                                    <h1>二维码</h1>
+                                    <img alt="140x140" src="default3.jpg" />
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-md-8 column">
+                                <div class="panel-group" id="panel-16964">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                             <a class="panel-title" data-toggle="collapse" data-parent="#panel-16964" href="#panel-element-976993">Collapsible Group Item #1</a>
+                                        </div>
+                                        <div id="panel-element-976993" class="panel-collapse in">
+                                            <div class="panel-body">
+                                                Anim pariatur cliche...
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                             <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-16964" href="#panel-element-947558">Collapsible Group Item #2</a>
+                                        </div>
+                                        <div id="panel-element-947558" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                Anim pariatur cliche...
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 column">
+                                <div class="carousel slide" id="carousel-779647">
+                                    <ol class="carousel-indicators">
+                                        <li class="active" data-slide-to="0" data-target="#carousel-779647">
+                                        </li>
+                                        <li data-slide-to="1" data-target="#carousel-779647">
+                                        </li>
+                                        <li data-slide-to="2" data-target="#carousel-779647">
+                                        </li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img alt="" src="v3/default.jpg" />
+                                            <div class="carousel-caption">
+                                                <h4>
+                                                    First Thumbnail label
+                                                </h4>
+                                                <p>
+                                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img alt="" src="v3/default1.jpg" />
+                                            <div class="carousel-caption">
+                                                <h4>
+                                                    Second Thumbnail label
+                                                </h4>
+                                                <p>
+                                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img alt="" src="v3/default2.jpg" />
+                                            <div class="carousel-caption">
+                                                <h4>
+                                                    Third Thumbnail label
+                                                </h4>
+                                                <p>
+                                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div> <a class="left carousel-control" href="#carousel-779647" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-779647" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-12 column">
+                        <div class="jumbotron">
+                            <h1>
+                                Hello, world!
+                            </h1>
+                            <p>
+                                This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+                            </p>
+                            <p>
+                                 <a class="btn btn-primary btn-large" href="#">Learn more</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </div>
-
 
 </body>
 
